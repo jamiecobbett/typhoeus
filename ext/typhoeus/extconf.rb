@@ -61,5 +61,6 @@ else
                '/usr/lib'
     )
 end
+$LIBPATH.unshift(LIBDIR)
 
 create_makefile("typhoeus/native")
